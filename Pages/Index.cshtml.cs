@@ -18,6 +18,9 @@ namespace WebApp.Pages
             _db = db;
         }
 
+        [TempData]
+        public string Message { get; set; }
+
         public IList<Customer> Customers { get; private set; }
         public async Task OnGetAsync()
         {

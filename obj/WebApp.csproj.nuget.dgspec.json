@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/seakin/Desktop/GTP/myWebApp/WebApp/WebApp.csproj": {}
+    "/Users/seakin/Projects/WebApp/WebApp.csproj": {}
   },
   "projects": {
-    "/Users/seakin/Desktop/GTP/myWebApp/WebApp/WebApp.csproj": {
+    "/Users/seakin/Projects/WebApp/WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/seakin/Desktop/GTP/myWebApp/WebApp/WebApp.csproj",
+        "projectUniqueName": "/Users/seakin/Projects/WebApp/WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "/Users/seakin/Desktop/GTP/myWebApp/WebApp/WebApp.csproj",
+        "projectPath": "/Users/seakin/Projects/WebApp/WebApp.csproj",
         "packagesPath": "/Users/seakin/.nuget/packages/",
-        "outputPath": "/Users/seakin/Desktop/GTP/myWebApp/WebApp/obj/",
+        "outputPath": "/Users/seakin/Projects/WebApp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
