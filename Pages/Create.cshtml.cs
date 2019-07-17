@@ -35,7 +35,10 @@ namespace WebApp.Pages
             }
             _db.Customers.Add(Customer);
             await _db.SaveChangesAsync();
-            Message = $"Customer {Customer.Name} added!";
+            var msg = $"Customer {Customer.Name} added!";
+            Message = msg;
+            Log.LogCritical(msg);
+
             return RedirectToPage("/Index");
         }
     }
