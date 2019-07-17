@@ -1,0 +1,25 @@
+@page "{id:int}"
+@model WebApp.Pages.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit Customer - @Model.Customer.Id</h2>
+
+<form method="POST">
+    <div asp-validation-summary="All"></div>
+        <input asp-for="Customer.Id" type="hidden" />
+        <div>
+            <input asp-for="Customer.Name" />
+            <span asp-validation-for="Customer.Name"></span>
+        </div>
+    </div>
+    <div>
+        <!-- 2:16:00 in video -->
+        <button type="submit">Save </button>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
